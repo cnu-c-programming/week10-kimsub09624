@@ -8,7 +8,7 @@ struct IPv4 {
 	unsigned int ihl;
 	unsigned long long ttl;
 	unsigned long long protocol;
-	unsigned car data[1024];
+	unsigned char data[1024];
 };
 
 int main() {
