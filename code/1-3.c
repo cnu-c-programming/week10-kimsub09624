@@ -11,7 +11,7 @@ struct IPv4 {
 	unsigned char data[1024];
 };
 
-void update_cal(struct IPv4) {
+void update_val(struct IPv4) {
 	sprintf(s.data, "update_val");
 }
 
